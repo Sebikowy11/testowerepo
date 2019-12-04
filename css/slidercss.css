@@ -1,0 +1,42 @@
+.fullsection{
+    display:block;
+    width: 100vw;
+    Height: 100vw;
+}
+.activeslide {
+  display: block !important;
+  width: 100vw;
+  Height: 100vh;
+}
+.activeslide > img {
+    object-fit: fill;
+    width: 100vw;
+    Height: 100vh;
+
+
+}
+
+.activeslide > .textdiv > p{
+  color: white;
+  size: 1.5rem;
+}
+.activeslide > .textdiv {
+  width: 35vw;
+Height: 40vh;
+z-index: 1;
+position: absolute;
+background-color: red;
+top: 30%;
+right: 10%;
+color: red;
+border-radius: 15%;
+padding: 10%;
+}
+
+
+
+#slider{
+  width: 100vw;
+  Height: 100vh;
+  display: none;
+margin: 0px auto;}
