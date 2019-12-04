@@ -1,5 +1,5 @@
-.fecebook-logo{
-
+html{
+  overflow-x: hidden;
 
 }
 * {
@@ -92,12 +92,12 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 .dark-right{
   background-color: #2d2e2e;
   margin: 0 !important;
-  z-index: 10;
+  z-index: 1;
 }
 .dark-right-main{
   background-color: #0a4426;
   margin: 0 !important;
-  z-index: 10;
+  z-index: 1;
 
 }
 .container-dark{
@@ -118,6 +118,7 @@ p{
   padding-top: 5%;
   padding-bottom: 5%;
   font-size: 2rem;
+  font-family: lorem;
 }
 .moved-left-img{
   position: absolute;
@@ -222,9 +223,11 @@ p{
 .navbar{
   z-index: 2;
   position: absolute;
-  width: 100vw;
+  min-width: 100vw;
+  width: 100%;
   background-color: #0a4426;
   height: 15%;
+  box-sizing: content-box;
 }
 .nav-link{
   color: white;
@@ -305,7 +308,7 @@ p{
 .homepage-white{
 
   background-color: white;
-  z-index: 3;
+
   position: absolute;
   width: 84%;
   bottom: -35vh
@@ -355,4 +358,45 @@ background-position-x: center;
   left: 50%;
   top: 85%;
   transform: translate(-50%, 90%);
+}
+.mobile-menu{
+  background-color:#0a4426;
+  color: white;
+  width: 100vw;
+  height: auto;
+  display: none;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+
+
+}
+.menu-item-mobile{
+  width: 100vw;
+  font-size: 1.5rem;
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+  display: block;
+    text-align: center;
+    padding: 2% 0%;
+}
+.navbarcontent1{
+  width: 88%;
+}
+.mobile-menu-button{
+  font-size: 2.5rem;
+    vertical-align: middle;
+    background-color: #0a4426;
+    color: white;
+    border:none;
+
+}
+#expandmenu{
+  margin: auto;
+      vertical-align: middle;
+      position: absolute;
+      right: 20%;
+      top: 5vh;
+}
+.active{
+  display: block;
 }

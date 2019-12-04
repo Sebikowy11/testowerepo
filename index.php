@@ -318,7 +318,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
       </div>
     </div>
       <div class="row ">
-        <div id="#phone-team"  class="col-sm-12 col-md-4 ">
+        <div id="phone-team"  class="col-sm-12 col-md-4 team-us">
           <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_2.png"/>
           <div class="pt-4 px-3">
             <h3>Marcin Czwakiel</h3>
@@ -326,7 +326,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
             <p>Swoją przygodę zaczynałem pracując w kancelarii komorniczej. Od 2013 roku jestem adwokatem, a aktualnie wspólnikiem zarządzającym Kancelarii Adwokatów Czwakiel i Wspólnicy.</p>
           </div>
         </div>
-        <div id="#phone-team" class="col-sm-12 col-md-4 ">
+        <div id="phone-team" class="col-sm-12 col-md-4 team-us">
           <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_2.png"/>
           <div class="pt-4 px-3">
             <h3>Marcin Czwakiel</h3>
@@ -334,7 +334,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
             <p>Swoją przygodę zaczynałem pracując w kancelarii komorniczej. Od 2013 roku jestem adwokatem, a aktualnie wspólnikiem zarządzającym Kancelarii Adwokatów Czwakiel i Wspólnicy.</p>
           </div>
         </div>
-        <div id="#phone-team" class="col-sm-12 col-md-4 ">
+        <div id="phone-team" class="col-sm-12 col-md-4 team-us">
           <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_2.png"/>
           <div class="pt-4 px-3">
             <h3>Marcin Czwakiel</h3>
@@ -355,17 +355,17 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
     <div class="col-left2">
     </div>
     <div class="col-8-first container-green text-white contact-container">
-      <div class="col-sm-12 col-md-4 text-left">
+      <div class="col-sm-12 col-md-4 text-left pb-4">
         <h1 class="text-white">Skontaktuj<br> się z nami</h1>
       </div>
       <div class="col-sm-12 col-md-4 text-left">
-        <h1 class="text-white">+ 604 604 604</h1>
+        <h1 class="text-white" style="whitespace: nowrap;"> 604 604 604</h1>
         <p class="text-white pb-5">Marcin Czwakiel</p>
-        <h1 class="text-white">+ 604 604 604</h1>
+        <h1 class="text-white"> 604 604 604</h1>
         <p class="text-white pb-5">Marcin Czwakiel</p>
-        <h1 class="text-white">+ 604 604 604</h1>
+        <h1 class="text-white"> 604 604 604</h1>
         <p class="text-white pb-5">Marcin Czwakiel</p>
-        <h3 class="text-white" style="">kontakt@adwokat-czwakiel.pl</h3>
+        <h4 class="text-white" style="">kontakt@adwokat-czwakiel.pl</h4>
       </div>
       <div class="col-sm-12 col-md-3 text-left">
         <div  class="pb-5">

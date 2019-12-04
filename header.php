@@ -19,11 +19,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styl.css"/>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/uikit.min.css" />
         <script src="<?php echo get_template_directory_uri(); ?>/js/uikit.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/uikit-icons.min.js"></script>
-				<script src="<?php echo get_template_directory_uri(); ?>/js/myscripts.js"></script>
+
 	<?php wp_head(); ?>
 </head>
 
@@ -64,6 +65,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 				); ?>
 			<?php if ( 'container' == $container ) : ?>
 			</div><!-- .container -->
+			<div class="navbarcontent1">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/menu.png"/>
+				<div id="expandmenu"><i class="fas fa-bars text-white mobile-menu-button" ></i></div>
+					<div id="mobile-menu" class="mobile-menu">
+						<a class="menu-item-mobile">Zespół</a>
+						<a class="menu-item-mobile">Dla Firm</a>
+						<a class="menu-item-mobile">Dla Ciebie</a>
+						<a class="menu-item-mobile">Blog</a>
+						<a class="menu-item-mobile">Do pobrania</a>
+						<a class="menu-item-mobile">Kontakt</a>
+					</div></div>
 			<?php endif; ?>
 
 		</nav><!-- .site-navigation -->
