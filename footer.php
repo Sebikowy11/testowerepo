@@ -29,14 +29,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="col-3">
 						<img class="pt-5" src="<?php echo get_template_directory_uri(); ?>/assets/img/menu.png"/>
 						</div>
-						<div class="fottermenu  col-1">
+						<div class="fottermenu col-sm-12  col-md-1">
 							<p class="fottermenuheader  pt-5 pb-3">ZESPÓŁ</p>
 							<a class="text-white py-3 my-5">O nas</a><br>
 							<a class="text-white py-3 my-5">Lorem</a><br>
 							<a class="text-white py-3 my-5">Kariera</a><br>
 							<i class="fa fa-facebook"></i>
 						</div>
-						<div class="fottermenu  col-3">
+						<div class="fottermenu col-sm-12  col-md-3">
 							<p class="fottermenuheader pt-5 pb-3">DLA FIRM</p>
 							<a class="text-white py-3 my-5">Obsługa prawna przedsiębiorców </a><br>
 							<a class="text-white py-3 my-5">Obsługa prawna firm </a><br>
@@ -44,7 +44,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<a class="text-white py-3 my-5">Obsługa prawna pracodawców </a><br>
 						</div>
 
-						<div class="fottermenu  col-3">
+						<div class="fottermenu col-sm-12  col-md-3">
 							<p class="fottermenuheader pt-5 pb-3">DLA CIEBIE</p>
 							<a class="text-white py-3 my-5">Spadki</a><br>
 							<a class="text-white py-3 my-5">Rozwody i podziały majątku</a><br>
@@ -54,11 +54,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<a class="text-white py-3 my-5">Windykacja</a><br>
 							<a class="text-white py-3 my-5">Inne</a><br>
 						</div>
-						<div class="fottermenusocial  col-1">
+						<div class="fottermenusocial text-center col-sm-12  col-md-2">
 							<p class="fottermenuheader pt-5 pb-3">SOCIAL MEDIA</p>
-							<i class="fa fa-facebook facebook-logo mx-1 my-auto" style="font-size:26px; border-radius: 50%; background-color: rgba(255, 255, 255, .5); color: white !important; width: 35%; height: 11%; text-align: center;"></i>
-							<i class="fa fa-facebook facebook-logo mx-1 my-auto" style="font-size:26px; border-radius: 50%; background-color: rgba(255, 255, 255, .5); color: white !important; width: 35%; height: 11%; text-align: center;"></i>
-							<i class="fa fa-facebook facebook-logo mx-1 my-auto" style="font-size:26px; border-radius: 50%; background-color: rgba(255, 255, 255, .5); color: white !important; width: 35%; height: 11%; text-align: center;"></i>
+							<i class="fa fa-facebook facebook-logo mx-1 my-auto" style="font-size:26px; border-radius: 50%; background-color: rgba(255, 255, 255, .5); color: white !important; width: 40px; height: 40px; text-align: center;"></i>
+							<i class="fa fa-facebook facebook-logo mx-1 my-auto" style="font-size:26px; border-radius: 50%; background-color: rgba(255, 255, 255, .5); color: white !important; width: 40px; height: 40px; text-align: center;"></i>
+							<i class="fa fa-facebook facebook-logo mx-1 my-auto" style="font-size:26px; border-radius: 50%; background-color: rgba(255, 255, 255, .5); color: white !important; width: 40px; height: 40px; text-align: center;"></i>
 						</div>
 					<!-- .container -->
 					</div>
@@ -77,6 +77,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php wp_footer(); ?>
 
 </body>
+<script src="<?php echo get_template_directory_uri(); ?>/js/myscripts.js"></script>
 <script>
 
 
