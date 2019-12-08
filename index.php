@@ -9,6 +9,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="css/styl.css"/>
   <link rel="stylesheet" href="css/theme.css"/>
+  <link rel="stylesheet" href="css/animated.css"/>
   <link rel="stylesheet" href="style.css"/>
 	<link rel="stylesheet" href="css/uikit.min.css" />
         <script src="js/uikit.min.js"></script>
@@ -111,8 +112,8 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
       <div class="col-md-3 col-sm-0">
       </div>
       </div>
-      <div class="row">
-        <div class="col-md-5 col-sm-12 container-green text-white px-auto mx-auto">
+      <div id="animatedsection" class="row">
+        <div class="col-md-5 col-sm-12 container-green text-white px-auto mx-auto animated2">
           <h2 class="text-white">Dla Firm</h2></br>
           <p class="animatedlink2"><a href="https://www.w3schools.com">Obsługa prawna przedsiębiorców > </a></p>
           <p class="animatedlink2"><a href="https://www.w3schools.com">Obsługa prawna firm > </a></p>
@@ -121,7 +122,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
         </div>
         <div class="col-right">
         </div>
-        <div class="col-md-5 col-sm-12 px-auto mx-auto container-two">
+        <div class="col-md-5 col-sm-12 px-auto mx-auto container-two animated2">
           <h2>Dla Ciebie</h2></br>
           <p class="animatedlink2"><a href="https://www.w3schools.com">Spadki > </a></p>
           <p class="animatedlink2"><a href="https://www.w3schools.com">Rozwody i podziały majątku > </a></p>
@@ -143,11 +144,11 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
     <div class="col-left2">
 
     </div>
-    <div class="col-8-first ">
+    <div  class="col-8-first ">
       <h1>Korzystając z naszych usług możesz liczyć na</h1>
-      <div class="row">
+      <div id="animatedsection2" class="row">
 
-        <div id="phone-team" class="col-sm-6 col-md-3 pr-5 ">
+        <div id="phone-team" class="col-sm-6 col-md-3 pr-5">
           <img src="assets/img/main_img_1.png"/>
           <h4 class="py-3">Wieloletnie doświadczenie</h4>
           <p class="pr-5">W zakresie zleconej obsługi prowadzę przed sadami procesy gospodarcze</p>
@@ -181,10 +182,10 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
     <div class="col-8-first">
       <h1>Najnowsze<b> aktualności</b></h1>
       <div class="row mx-auto">
-        <div uk-slider="center: true">
+        <div uk-slider="center: true" style="width: 100%;">
 
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-
+      <div class="uk-slider-container uk-light">
         <ul class="uk-slider-items uk-child-width-1-3@s uk-grid">
             <li>
                 <div class="uk-card uk-card-default">
@@ -253,9 +254,14 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
                 </div>
             </li>
         </ul>
+        </div>
+        <div class="">
+            <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+        </div>
 
-        <a class="uk-position-center-left-out " href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-        <a class="uk-position-center-right-out" href="#" uk-slidenav-next uk-slider-item="next"></a>
+        <!-- <a class="uk-position-center-left-out" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right-out" href="#" uk-slidenav-next uk-slider-item="next"></a> -->
 
     </div>
 
@@ -288,14 +294,14 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
   <div class="row">
     <div class="col-left2">
     </div>
-    <div class="col-9-first container-dark my-auto">
+    <div id="animatedsection3" class="col-9-first container-dark my-auto">
       <div class="mx-auto my-auto">
 
 
           <div class="row">
             <div class="col-3">
             </div>
-              <div class="col-7">
+              <div class="col-7 animated3">
                 <img id="moved-left-img" class="moved-left-img" src="assets/img/main_img_3.png"/>
                 <h1 class="text-white">Misja: niemożliwe nie istnieje</br>
                   Kancelariia Adwokatów Czwakiel
@@ -360,7 +366,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
           Od 2013 roku jestem adwokatem, a aktualnie wspólnikiem zarządzającym Kancelarii Adwokatów Czwakiel.</p>
       </div>
     </div>
-      <div class="row ">
+      <div id="animatedsection4" class="row ">
         <div id="phone-team"  class="col-sm-12 col-md-4 team-us">
           <img class="img-responsive" src="assets/img/main_img_2.png"/>
           <div class="pt-4 px-3">

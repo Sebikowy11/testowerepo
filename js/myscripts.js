@@ -1,5 +1,4 @@
 
-
 // $("#expandmenu").on( "click", function() {
 //  $(".mobile-menu").css("display", "block");
 // });
@@ -12,6 +11,18 @@ $('#expandmenu').on('click', function(e){
     }
 
 })
+// var has_fired;
+// $("html").on("scroll", function () {
+//     if (!has_fired && $(this).scrollTop() >= $("#animatedsection").offset().top) {
+//       $("#phone-team").addClass("animated jackInTheBox");
+//       $("#phone-team2").addClass("animated jackInTheBox");
+//       $("#phone-team3").addClass("animated jackInTheBox");
+//       $("#phone-team4").addClass("animated jackInTheBox");
+//       console.log("udalosie")
+//         has_fired = true; // use this if only want fired once
+//
+//     }
+// });
 
 
 $(".right-text-dark-scroll").on( "click", function() {
@@ -101,6 +112,53 @@ $(document).ready(function() {
   else{
         $(".navbarcontent1").css("display", "none");
         $(".navbarcontent").css("display", "block");
+        $(window).scroll(function() {
+           var hT = $('#animatedsection').offset().top,
+               hH = $('#animatedsection').outerHeight(),
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           if (wS > (hT+hH-wH)){
+               console.log(hH);
+               $(".animated2").addClass("animated pulse");
+
+           }
+        });
+        $(window).scroll(function() {
+           var hT = $('#animatedsection3').offset().top,
+               hH = $('#animatedsection3').outerHeight() -($('#animatedsection3').outerHeight()/2),
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           if (wS > (hT+hH-wH)){
+               console.log(hH);
+               $(".animated3").addClass("animated bounceInRight");
+
+           }
+        });
+
+        $(window).scroll(function() {
+           var hT = $('#animatedsection2').offset().top,
+               hH = 150,
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           if (wS > (hT+hH-wH)){
+               console.log(hH);
+               $("#phone-team").addClass("animated bounceIn");
+               $("#phone-team2").addClass("animated bounceIn");
+               $("#phone-team3").addClass("animated bounceIn");
+               $("#phone-team4").addClass("animated bounceIn");
+           }
+        });
+        $(window).scroll(function() {
+           var hT = $('#animatedsection4').offset().top,
+               hH = $('#animatedsection4').outerHeight() -($('#animatedsection3').outerHeight()/2),
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           if (wS > (hT+hH-wH)){
+               console.log(hH);
+               $(".team-us").addClass("animated bounceInLeft");
+
+           }
+        });
   }
   if(windowWidth>windowHeight){
     $('#expandmenu').css("top", "5vw");

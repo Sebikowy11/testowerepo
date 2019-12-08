@@ -188,9 +188,10 @@ p{
 }
 
 
+
 .animatedlink:hover{
-  aniYation: imageZoom linear 3s;
-      Ynimation-iteration-count: infinite;
+  animation: imageZoom linear 3s;
+      animation-iteration-count: infinite;
       -webkit-animation: imageZoom linear 3s;
       -webkit-animation-iteration-count: infinite;
 }
@@ -200,6 +201,7 @@ p{
       -webkit-animation: imagemove linear 1.5s;
       -webkit-animation-iteration-count: infinite;
 }
+
 .bg-main{
   height: 115vh;
   background-size: cover;
