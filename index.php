@@ -299,9 +299,9 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
 
 
           <div class="row">
-            <div class="col-3">
+            <div class="col-md-3 col-sm-0">
             </div>
-              <div id="animatedsection3" class="col-7 animated3">
+              <div id="animatedsection3" class="col-md-7 col-sm-12 animated3">
                 <img id="moved-left-img" class="moved-left-img" src="assets/img/main_img_3.png"/>
                 <h1 class="text-white">Misja: niemożliwe nie istnieje</br>
                   Kancelariia Adwokatów Czwakiel
@@ -456,7 +456,7 @@ Pl. Magistracki 8/2</p>
 
       		<div class="row">
 
-      			<div class="col-md-12 dark-right">
+      			<div class="col-md-12 dark-right1">
 
       				<footer class="site-footer fottercontent" id="colophon">
       					<div class="row ">
