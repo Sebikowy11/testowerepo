@@ -57,6 +57,10 @@ $( window ).resize(function() {
     $('#expandmenu').css("top", "5vw");
 
   }
+  if(windowWidth<windowHeight){
+    $('#expandmenu').css("top", "5vh");
+
+  }
   if (1030 > windowWidth) {
     $("#moved-left-img").css("display", "none");
 		$(".homepage-white").css("display", "none");

@@ -280,7 +280,8 @@ p{
     position: absolute;
     margin: auto;
     right: calc(100% - 55%);
-    top: calc(100vh - 97vh);
+    /* top: calc(100vh - 97vh); */
+    top: calc(15% + 7%);
 }
 .right-text-dark{
   transform: rotate(90deg);
