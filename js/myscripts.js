@@ -110,6 +110,7 @@ $(document).ready(function() {
 
   }
   else{
+    $(".main-text-field").addClass("animated slideInLeft");
     $('#animatedsection').css("visibility", "hidden");
     $('#animatedsection2').css("visibility", "hidden");
     $('#animatedsection3').css("visibility", "hidden");

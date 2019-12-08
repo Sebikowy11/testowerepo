@@ -294,14 +294,14 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
   <div class="row">
     <div class="col-left2">
     </div>
-    <div id="animatedsection3" class="col-9-first container-dark my-auto">
+    <div  class="col-9-first container-dark my-auto">
       <div class="mx-auto my-auto">
 
 
           <div class="row">
             <div class="col-3">
             </div>
-              <div class="col-7 animated3">
+              <div id="animatedsection3" class="col-7 animated3">
                 <img id="moved-left-img" class="moved-left-img" src="assets/img/main_img_3.png"/>
                 <h1 class="text-white">Misja: niemożliwe nie istnieje</br>
                   Kancelariia Adwokatów Czwakiel
@@ -400,10 +400,10 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
       <p class="right-text-dark">Zespół</p>
     </div>
   </div>
-  <div id="animatedsection6" class="row">
+  <div  class="row">
     <div class="col-left2">
     </div>
-    <div  class="col-8-first container-green text-white contact-container">
+    <div id="animatedsection6"  class="col-8-first container-green text-white contact-container">
       <div class="col-sm-12 col-md-4 text-left pb-4">
         <h1 class="text-white">Skontaktuj<br> się z nami</h1>
       </div>
