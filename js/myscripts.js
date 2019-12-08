@@ -26,7 +26,7 @@ $('#expandmenu').on('click', function(e){
 
 
 $(".right-text-dark-scroll").on( "click", function() {
- $("#scrolltarget").get(0).scrollIntoView();
+ $("#scrolltarget").get(0).scrollIntoView({behavior: "smooth"});
 });
 $( window ).resize(function() {
   var windowHeight = $(window).height();
@@ -110,19 +110,51 @@ $(document).ready(function() {
 
   }
   else{
+    $('#animatedsection').css("visibility", "hidden");
+    $('#animatedsection2').css("visibility", "hidden");
+    $('#animatedsection3').css("visibility", "hidden");
+    $('#animatedsection4').css("visibility", "hidden");
+    $('#animatedsection5').css("visibility", "hidden");
+    $('#animatedsection6').css("visibility", "hidden");
         $(".navbarcontent1").css("display", "none");
         $(".navbarcontent").css("display", "block");
         $(window).scroll(function() {
            var hT = $('#animatedsection').offset().top,
-               hH = $('#animatedsection').outerHeight(),
+               hH = $('#animatedsection').outerHeight() - ($('#animatedsection').outerHeight()/2),
                wH = $(window).height(),
                wS = $(this).scrollTop();
            if (wS > (hT+hH-wH)){
                console.log(hH);
-               $(".animated2").addClass("animated pulse");
+               $('#animatedsection').css("visibility", "visible");
+               $(".animated2").addClass("animated bounceInUp");
 
            }
         });
+        $(window).scroll(function() {
+           var hT = $('#animatedsection5').offset().top,
+               hH = $('#animatedsection5').outerHeight() - ($('#animatedsection5').outerHeight()/2),
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           if (wS > (hT+hH-wH)){
+               console.log(hH);
+               $('#animatedsection5').css("visibility", "visible");
+               $(".animated5").addClass("animated bounceInLeft");
+
+           }
+        });
+        $(window).scroll(function() {
+           var hT = $('#animatedsection6').offset().top,
+               hH = $('#animatedsection6').outerHeight() - ($('#animatedsection6').outerHeight()/2),
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           if (wS > (hT+hH-wH)){
+               console.log(hH);
+               $('#animatedsection6').css("visibility", "visible");
+               $(".contact-container").addClass("animated bounceInUp");
+
+           }
+        });
+
         $(window).scroll(function() {
            var hT = $('#animatedsection3').offset().top,
                hH = $('#animatedsection3').outerHeight() -($('#animatedsection3').outerHeight()/2),
@@ -130,6 +162,7 @@ $(document).ready(function() {
                wS = $(this).scrollTop();
            if (wS > (hT+hH-wH)){
                console.log(hH);
+               $('#animatedsection3').css("visibility", "visible");
                $(".animated3").addClass("animated bounceInRight");
 
            }
@@ -141,6 +174,7 @@ $(document).ready(function() {
                wH = $(window).height(),
                wS = $(this).scrollTop();
            if (wS > (hT+hH-wH)){
+             $('#animatedsection2').css("visibility", "visible");
                console.log(hH);
                $("#phone-team").addClass("animated bounceIn");
                $("#phone-team2").addClass("animated bounceIn");
@@ -150,10 +184,11 @@ $(document).ready(function() {
         });
         $(window).scroll(function() {
            var hT = $('#animatedsection4').offset().top,
-               hH = $('#animatedsection4').outerHeight() -($('#animatedsection3').outerHeight()/2),
+               hH = $('#animatedsection4').outerHeight() -($('#animatedsection4').outerHeight()/2),
                wH = $(window).height(),
                wS = $(this).scrollTop();
            if (wS > (hT+hH-wH)){
+             $('#animatedsection4').css("visibility", "visible");
                console.log(hH);
                $(".team-us").addClass("animated bounceInLeft");
 

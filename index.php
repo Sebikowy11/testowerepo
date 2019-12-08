@@ -179,9 +179,9 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
   <div class="row">
     <div class="col-left2">
     </div>
-    <div class="col-8-first">
+    <div id="animatedsection5" class="col-8-first">
       <h1>Najnowsze<b> aktualności</b></h1>
-      <div class="row mx-auto">
+      <div class="row mx-auto animated5">
         <div uk-slider="center: true" style="width: 100%;">
 
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
@@ -400,10 +400,10 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
       <p class="right-text-dark">Zespół</p>
     </div>
   </div>
-  <div class="row">
+  <div id="animatedsection6" class="row">
     <div class="col-left2">
     </div>
-    <div class="col-8-first container-green text-white contact-container">
+    <div  class="col-8-first container-green text-white contact-container">
       <div class="col-sm-12 col-md-4 text-left pb-4">
         <h1 class="text-white">Skontaktuj<br> się z nami</h1>
       </div>
