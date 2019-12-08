@@ -94,26 +94,26 @@
     <div class="col-8-first">
       <div class="homepage-white">
         <div class="row">
-          <div class="col-md-6 col-sm-12 px-5">
+          <div class="col-lg-6 col-md-12 px-5">
             <h1>Pomaganie jest naszą misją</h1><br>
             <p class="bigger-text2">Razem tworzymy zespół prawników z wiedzą, doświadczeniem, energią i pasją pomagania </p>
           </div>
-          <div class="col-md-6 col-sm-12 px-5">
+          <div class="col-lg-6 col-md-12 px-5">
             <p class="bigger-text">Zapraszam Cię więc do skorzystania
 z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
           </div>
         </div>
       </div>
       <div class="row">
-      <div class="col-md-8 col-sm-12">
+      <div class="col-lg-8 col-md-12">
       <h1>Główne obszary specjalizacji naszej<br>Kancelarii <b> Adwokató Czwakiel i Wspólnicy.</b></h1>
       <p>Nazywam się Marcin Czwakiel i z wymiarem sprawiedliwości związany jestem od ponad 15 lat. Swoją przygodę zaczynałem pracując w kancelarii komorniczej. Od 2013 roku jestem adwokatem, a aktualnie wspólnikiem zarządzającym Kancelarii Adwokatów Czwakiel i Wspólnicy. Umiejętność pracy pod presją czasu, koncentracja</p>
       </div>
-      <div class="col-md-3 col-sm-0">
+      <div class="col-lg-3 col-md-0">
       </div>
       </div>
       <div id="animatedsection" class="row">
-        <div class="col-md-5 col-sm-12 container-green text-white px-auto mx-auto animated2">
+        <div class="col-lg-5 col-md-12 container-green text-white px-auto mx-auto animated2">
           <h2 class="text-white">Dla Firm</h2></br>
           <p class="animatedlink2"><a href="https://www.w3schools.com">Obsługa prawna przedsiębiorców > </a></p>
           <p class="animatedlink2"><a href="https://www.w3schools.com">Obsługa prawna firm > </a></p>
@@ -122,7 +122,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
         </div>
         <div class="col-right">
         </div>
-        <div class="col-md-5 col-sm-12 px-auto mx-auto container-two animated2">
+        <div class="col-lg-5 col-md-12 px-auto mx-auto container-two animated2">
           <h2>Dla Ciebie</h2></br>
           <p class="animatedlink2"><a href="https://www.w3schools.com">Spadki > </a></p>
           <p class="animatedlink2"><a href="https://www.w3schools.com">Rozwody i podziały majątku > </a></p>
@@ -148,22 +148,22 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
       <h1>Korzystając z naszych usług możesz liczyć na</h1>
       <div id="animatedsection2" class="row">
 
-        <div id="phone-team" class="col-sm-6 col-md-3 pr-5">
+        <div id="phone-team" class="col-md-6 col-lg-3 pr-5">
           <img src="assets/img/main_img_1.png"/>
           <h4 class="py-3">Wieloletnie doświadczenie</h4>
           <p class="pr-5">W zakresie zleconej obsługi prowadzę przed sadami procesy gospodarcze</p>
         </div>
-        <div id="phone-team2" class="col-sm-6 col-md-3 pr-5 ">
+        <div id="phone-team2" class="col-md-6 col-lg-3 pr-5 ">
           <img src="assets/img/main_img_1.png"/>
           <h4 class="py-3">Wieloletnie doświadczenie</h4>
           <p class="pr-5">W zakresie zleconej obsługi prowadzę przed sadami procesy gospodarcze</p>
         </div>
-        <div id="phone-team3" class="col-sm-6 col-md-3 pr-5 ">
+        <div id="phone-team3" class="col-md-6 col-lg-3 pr-5 ">
           <img src="assets/img/main_img_1.png"/>
           <h4 class="py-3">Wieloletnie doświadczenie</h4>
           <p class="pr-5">W zakresie zleconej obsługi prowadzę przed sadami procesy gospodarcze</p>
         </div>
-        <div id="phone-team4" class="col-sm-6 col-md-3 pr-5 ">
+        <div id="phone-team4" class="col-md-6 col-lg-3 pr-5 ">
           <img src="assets/img/main_img_1.png"/>
           <h4 class="py-3">Wieloletnie doświadczenie</h4>
           <p class="pr-5">W zakresie zleconej obsługi prowadzę przed sadami procesy gospodarcze</p>
@@ -299,15 +299,15 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
 
 
           <div class="row">
-            <div class="col-md-3 col-sm-0">
+            <div class="col-xl-3 col-lg-0">
             </div>
-              <div id="animatedsection3" class="col-md-7 col-sm-12 animated3">
+              <div id="animatedsection3" class="col-xl-7 col-lg-12 col-md-12 animated3">
                 <img id="moved-left-img" class="moved-left-img" src="assets/img/main_img_3.png"/>
                 <h1 class="text-white">Misja: niemożliwe nie istnieje</br>
                   Kancelariia Adwokatów Czwakiel
                 </h1>
                 <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12">
                   <p class="text-white">
                     Tekst SEO. Nazywam się Marcin Czwakiel i z wymiarem sprawiedliwości związany jestem od ponad 15 lat. Swoją przygodę zaczynałem pracując w kancelarii komorniczej.
                   </br>
@@ -317,7 +317,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
                   </p><br>
                   <button class="button-on-dark animatedlink" onclick="window.location.href='/page2'">Więcej</button>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12">
                   <p class="text-white">
                     Umiejętność pracy pod presją czasu, koncentracja i opanowanie w trudnych sytuacjach to moje największe atuty. Lubię wygrywać i zawsze robię wszystko by osiągać zakładany cel.
                   </br>
@@ -352,14 +352,14 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
          problemów naszym celem.
       </h1>
       <div class="row">
-      <div class="col-md-6 col-sm-12 py-2 text-left">
+      <div class="col-lg-6 col-md-12 py-2 text-left">
         <p>
           Bardzo dużo radości sprawia mi końcowy uścisk dłoni Klienta połączony z podziękowaniem za wygranie sprawy.
         </p><br>
         <button class="button-on-white animatedlink" onclick="window.location.href='/page2'">Więcej</button>
 
       </div>
-      <div class="col-md-6 col-sm-12 py-2 text-left">
+      <div class="col-lg-6 col-md-12 py-2 text-left">
         <p>
           Nazywam się Marcin Czwakiel i z wymiarem sprawiedliwości związany jestem od ponad 15 lat. Swoją przygodę zaczynałem pracując w kancelarii komorniczej.
           <br><br>
@@ -367,24 +367,24 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
       </div>
     </div>
       <div id="animatedsection4" class="row ">
-        <div id="phone-team"  class="col-sm-12 col-md-4 team-us">
-          <img class="img-responsive" src="assets/img/main_img_2.png"/>
+        <div id="phone-team"  class="col-md-12 col-lg-4 team-us">
+          <img class="img-responsive w-100" src="assets/img/main_img_2.png"/>
           <div class="pt-4 px-3">
             <h3>Marcin Czwakiel</h3>
             <p class="py-2"><b>ADWOKAT</b></p>
             <p>Swoją przygodę zaczynałem pracując w kancelarii komorniczej. Od 2013 roku jestem adwokatem, a aktualnie wspólnikiem zarządzającym Kancelarii Adwokatów Czwakiel i Wspólnicy.</p>
           </div>
         </div>
-        <div id="phone-team" class="col-sm-12 col-md-4 team-us">
-          <img class="img-responsive" src="assets/img/main_img_2.png"/>
+        <div id="phone-team" class="col-md-12 col-lg-4 team-us">
+          <img class="img-responsive w-100" src="assets/img/main_img_2.png"/>
           <div class="pt-4 px-3">
             <h3>Marcin Czwakiel</h3>
             <p class="py-2"><b>ADWOKAT</b></p>
             <p>Swoją przygodę zaczynałem pracując w kancelarii komorniczej. Od 2013 roku jestem adwokatem, a aktualnie wspólnikiem zarządzającym Kancelarii Adwokatów Czwakiel i Wspólnicy.</p>
           </div>
         </div>
-        <div id="phone-team" class="col-sm-12 col-md-4 team-us">
-          <img class="img-responsive" src="assets/img/main_img_2.png"/>
+        <div id="phone-team" class="col-md-12 col-lg-4 team-us">
+          <img class="img-responsive w-100" src="assets/img/main_img_2.png"/>
           <div class="pt-4 px-3">
             <h3>Marcin Czwakiel</h3>
             <p class="py-2"><b>ADWOKAT</b></p>
@@ -404,10 +404,10 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
     <div class="col-left2">
     </div>
     <div id="animatedsection6"  class="col-8-first container-green text-white contact-container">
-      <div class="col-sm-12 col-md-4 text-left pb-4">
+      <div class="col-md-12 col-lg-4 text-left pb-4">
         <h1 class="text-white">Skontaktuj<br> się z nami</h1>
       </div>
-      <div class="col-sm-12 col-md-4 text-left">
+      <div class="col-md-12 col-lg-4 text-left">
         <h1 class="text-white" style="whitespace: nowrap;"> 604 604 604</h1>
         <p class="text-white pb-5">Marcin Czwakiel</p>
         <h1 class="text-white"> 604 604 604</h1>
@@ -416,7 +416,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
         <p class="text-white pb-5">Marcin Czwakiel</p>
         <h4 class="text-white" style="">kontakt@adwokat-czwakiel.pl</h4>
       </div>
-      <div class="col-sm-12 col-md-3 text-left">
+      <div class="col-md-12 col-lg-3 text-left">
         <div  class="pb-5">
           <p class="text-white contact-mini-text">Kancelaria Adwokatów<br> Czwakiel i Wspólnicy</p>
         </div>
@@ -456,22 +456,22 @@ Pl. Magistracki 8/2</p>
 
       		<div class="row">
 
-      			<div class="col-md-12 dark-right1">
+      			<div class="col-lg-12 dark-right1">
 
       				<footer class="site-footer fottercontent" id="colophon">
       					<div class="row ">
 
-      					<div class="col-md-3 col-sm-12 imgfooter">
+      					<div class="col-lg-3 col-md-12 imgfooter">
       						<img class="pt-5" src="assets/img/menu.png"/>
       						</div>
-      						<div class="fottermenu col-sm-12  col-md-1">
+      						<div class="fottermenu col-md-12  col-lg-1">
       							<p class="fottermenuheader  pt-5 pb-3">ZESPÓŁ</p>
       							<a class="text-white py-3 my-5">O nas</a><br>
       							<a class="text-white py-3 my-5">Lorem</a><br>
       							<a class="text-white py-3 my-5">Kariera</a><br>
       							<i class="fa fa-facebook"></i>
       						</div>
-      						<div class="fottermenu col-sm-12  col-md-3">
+      						<div class="fottermenu col-md-12  col-lg-3">
       							<p class="fottermenuheader pt-5 pb-3">DLA FIRM</p>
       							<a class="text-white py-3 my-5">Obsługa prawna przedsiębiorców </a><br>
       							<a class="text-white py-3 my-5">Obsługa prawna firm </a><br>
@@ -479,7 +479,7 @@ Pl. Magistracki 8/2</p>
       							<a class="text-white py-3 my-5">Obsługa prawna pracodawców </a><br>
       						</div>
 
-      						<div class="fottermenu col-sm-12  col-md-3">
+      						<div class="fottermenu col-md-12  col-lg-3">
       							<p class="fottermenuheader pt-5 pb-3">DLA CIEBIE</p>
       							<a class="text-white py-3 my-5">Spadki</a><br>
       							<a class="text-white py-3 my-5">Rozwody i podziały majątku</a><br>
@@ -489,7 +489,7 @@ Pl. Magistracki 8/2</p>
       							<a class="text-white py-3 my-5">Windykacja</a><br>
       							<a class="text-white py-3 my-5">Inne</a><br>
       						</div>
-      						<div class="fottermenusocial text-center col-sm-12  col-md-2">
+      						<div class="fottermenusocial text-center col-md-12  col-lg-2">
       							<p class="fottermenuheader pt-5 pb-3">SOCIAL MEDIA</p>
       							<i class="fa fa-facebook facebook-logo mx-1 my-auto" style="font-size:26px; border-radius: 50%; background-color: rgba(255, 255, 255, .5); color: white !important; width: 40px; height: 40px; text-align: center;"></i>
       							<i class="fa fa-facebook facebook-logo mx-1 my-auto" style="font-size:26px; border-radius: 50%; background-color: rgba(255, 255, 255, .5); color: white !important; width: 40px; height: 40px; text-align: center;"></i>
