@@ -1,24 +1,67 @@
-<?php
-/**
- * Template Name: xD
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @package understrap
- */
 
-// Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/styl.css"/>
+  <link rel="stylesheet" href="css/theme.css"/>
+  <link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
 
-get_header();
+</head>
 
-$container = get_theme_mod( 'understrap_container_type' );
+<body>
 
-?>
+<div class="site" id="page">
+
+	<!-- ******************* The Navbar Area ******************* -->
+	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
+
+		<a class="skip-link sr-only sr-only-focusable" href="#content"></a>
+
+		<nav class="navbar navbar-expand-md">
+
+
+      <div class="navbarcontent" style="display: block;">
+      				<img src="assets/img/menu.png">
+
+
+
+      				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      					<span class="navbar-toggler-icon"></span>
+      				</button>
+
+      				<!-- The WordPress Menu goes here -->
+      				<div id="navbarNavDropdown" class="collapse navbar-collapse"><ul id="main-menu" class="navbar-nav ml-auto"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-442" class="nav-home menu-item menu-item-type-custom menu-item-object-custom menu-item-442 nav-item"><a title="Zespół" href="http://s" class="nav-link">Zespół</a></li>
+      <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-443" class="is_mega_menu menu-item menu-item-type-custom menu-item-object-custom menu-item-443 nav-item"><a title="Dla firm" href="http://s" class="nav-link">Dla firm</a></li>
+      <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-444" class="is_mega_menu menu-item menu-item-type-custom menu-item-object-custom menu-item-444 nav-item"><a title="Dla Ciebie" href="http://s" class="nav-link">Dla Ciebie</a></li>
+      <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-445" class="is_mega_menu menu-item menu-item-type-custom menu-item-object-custom menu-item-445 nav-item"><a title="Blog" href="http://s" class="nav-link">Blog</a></li>
+      <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-446" class="is_mega_menu menu-item menu-item-type-custom menu-item-object-custom menu-item-446 nav-item"><a title="Do pobrania" href="http://s" class="nav-link">Do pobrania</a></li>
+      <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-447" class="is_mega_menu menu-item menu-item-type-custom menu-item-object-custom menu-item-447 nav-item"><a title="Kontakt" href="http://s" class="nav-link">Kontakt</a></li>
+      </ul></div>						</div>
+			<div class="navbarcontent1">
+				<img src="assets/img/menu.png"/>
+				<div id="expandmenu"><i class="fas fa-bars text-white mobile-menu-button" ></i></div>
+					<div id="mobile-menu" class="mobile-menu">
+						<a class="menu-item-mobile">Zespół</a>
+						<a class="menu-item-mobile">Dla Firm</a>
+						<a class="menu-item-mobile">Dla Ciebie</a>
+						<a class="menu-item-mobile">Blog</a>
+						<a class="menu-item-mobile">Do pobrania</a>
+						<a class="menu-item-mobile">Kontakt</a>
+					</div></div>
+
+
+		</nav><!-- .site-navigation -->
+
+	</div><!-- #wrapper-navbar end -->
+
 
 <script src="https://kit.fontawesome.com/bc980c4b8f.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -33,7 +76,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
   <div  class="row firstrow ">
 
-      <div class="col-left bg-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/main_section_img_1.png)"; >
+      <div class="col-left bg-main" style="background-image: url(assets/img/main_section_img_1.png)"; >
         <div class="main-text-field">
           <p class="main-text">Witam Cię na stronie<br>naszej Kancelarii.</p>
           <p class="main-second-text">Pomaganie jest nasza misją, rozwiazywanie<br>problemów naszym celem.</p>
@@ -105,22 +148,22 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
       <div class="row">
 
         <div id="phone-team" class="col-sm-6 col-md-3 pr-5 ">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png"/>
+          <img src="assets/img/main_img_1.png"/>
           <h4 class="py-3">Wieloletnie doświadczenie</h4>
           <p class="pr-5">W zakresie zleconej obsługi prowadzę przed sadami procesy gospodarcze</p>
         </div>
         <div id="phone-team2" class="col-sm-6 col-md-3 pr-5 ">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png"/>
+          <img src="assets/img/main_img_1.png"/>
           <h4 class="py-3">Wieloletnie doświadczenie</h4>
           <p class="pr-5">W zakresie zleconej obsługi prowadzę przed sadami procesy gospodarcze</p>
         </div>
         <div id="phone-team3" class="col-sm-6 col-md-3 pr-5 ">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png"/>
+          <img src="assets/img/main_img_1.png"/>
           <h4 class="py-3">Wieloletnie doświadczenie</h4>
           <p class="pr-5">W zakresie zleconej obsługi prowadzę przed sadami procesy gospodarcze</p>
         </div>
         <div id="phone-team4" class="col-sm-6 col-md-3 pr-5 ">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png"/>
+          <img src="assets/img/main_img_1.png"/>
           <h4 class="py-3">Wieloletnie doświadczenie</h4>
           <p class="pr-5">W zakresie zleconej obsługi prowadzę przed sadami procesy gospodarcze</p>
         </div>
@@ -146,7 +189,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
             <li>
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png" alt="">
+                        <img class="img-fluid w-100" src="assets/img/main_img_1.png" alt="">
                     </div>
                     <div class="uk-card-body">
                       <h3 class="uk-card-title"><b>1 PAŹDZIERNIK 2019</b></h3>
@@ -157,18 +200,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
             <li>
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png" alt="">
-                    </div>
-                    <div class="uk-card-body">
-                      <h3 class="uk-card-title"<b>1 PAŹDZIERNIK 2019</b></h3>
-                      <p class="bigger-text ">Po godzinach nie tylko<br> o prawie</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                        <img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png" alt="">
+                        <img class="img-fluid w-100" src="assets/img/main_img_1.png" alt="">
                     </div>
                     <div class="uk-card-body">
                       <h3 class="uk-card-title"><b>1 PAŹDZIERNIK 2019</b></h3>
@@ -179,7 +211,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
             <li>
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png" alt="">
+                        <img class="img-fluid w-100" src="assets/img/main_img_1.png" alt="">
                     </div>
                     <div class="uk-card-body">
                       <h3 class="uk-card-title"><b>1 PAŹDZIERNIK 2019</b></h3>
@@ -190,7 +222,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
             <li>
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png" alt="">
+                        <img class="img-fluid w-100" src="assets/img/main_img_1.png" alt="">
                     </div>
                     <div class="uk-card-body">
                       <h3 class="uk-card-title"><b>1 PAŹDZIERNIK 2019</b></h3>
@@ -201,7 +233,18 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
             <li>
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png" alt="">
+                        <img class="img-fluid w-100" src="assets/img/main_img_1.png" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                      <h3 class="uk-card-title"><b>1 PAŹDZIERNIK 2019</b></h3>
+                      <p class="bigger-text ">Po godzinach nie tylko<br> o prawie</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img class="img-fluid w-100" src="assets/img/main_img_1.png" alt="">
                     </div>
                     <div class="uk-card-body">
                       <h3 class="uk-card-title"><b>1 PAŹDZIERNIK 2019</b></h3>
@@ -220,17 +263,17 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
 
 </div>
         <!-- <div class="col-4">
-          <img class="img-fluid w-100 mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png"/>
+          <img class="img-fluid w-100 mb-4" src="assets/img/main_img_1.png"/>
           <p><b>1 PAŹDZIERNIK 2019</b></p>
           <p class="bigger-text ">Po godzinach nie tylko<br> o prawie</p>
         </div>
         <div class="col-4">
-          <img class="img-fluid w-100 mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png"/>
+          <img class="img-fluid w-100 mb-4" src="assets/img/main_img_1.png"/>
           <p><b>1 PAŹDZIERNIK 2019</b></p>
           <p class="bigger-text ">Po godzinach nie tylko<br> o prawie</p>
         </div>
         <div class="col-4">
-          <img class="img-fluid w-100 mb-4" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_1.png"/>
+          <img class="img-fluid w-100 mb-4" src="assets/img/main_img_1.png"/>
           <p><b>1 PAŹDZIERNIK 2019</b></p>
           <p class="bigger-text ">Po godzinach nie tylko<br> o prawie</p>
         </div> -->
@@ -253,7 +296,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
             <div class="col-3">
             </div>
               <div class="col-7">
-                <img id="moved-left-img" class="moved-left-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_3.png"/>
+                <img id="moved-left-img" class="moved-left-img" src="assets/img/main_img_3.png"/>
                 <h1 class="text-white">Misja: niemożliwe nie istnieje</br>
                   Kancelariia Adwokatów Czwakiel
                 </h1>
@@ -319,7 +362,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
     </div>
       <div class="row ">
         <div id="phone-team"  class="col-sm-12 col-md-4 team-us">
-          <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_2.png"/>
+          <img class="img-responsive" src="assets/img/main_img_2.png"/>
           <div class="pt-4 px-3">
             <h3>Marcin Czwakiel</h3>
             <p class="py-2"><b>ADWOKAT</b></p>
@@ -327,7 +370,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
           </div>
         </div>
         <div id="phone-team" class="col-sm-12 col-md-4 team-us">
-          <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_2.png"/>
+          <img class="img-responsive" src="assets/img/main_img_2.png"/>
           <div class="pt-4 px-3">
             <h3>Marcin Czwakiel</h3>
             <p class="py-2"><b>ADWOKAT</b></p>
@@ -335,7 +378,7 @@ z usług Kancelarii Adwokatów Czwakiel i Wspólnicy. </p>
           </div>
         </div>
         <div id="phone-team" class="col-sm-12 col-md-4 team-us">
-          <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/main_img_2.png"/>
+          <img class="img-responsive" src="assets/img/main_img_2.png"/>
           <div class="pt-4 px-3">
             <h3>Marcin Czwakiel</h3>
             <p class="py-2"><b>ADWOKAT</b></p>
@@ -401,5 +444,74 @@ Pl. Magistracki 8/2</p>
 
 
 
+      <div class="" id="wrapper-footer">
 
-<?php get_footer(); ?>
+      	<div class="">
+
+      		<div class="row">
+
+      			<div class="col-md-12 dark-right">
+
+      				<footer class="site-footer fottercontent" id="colophon">
+      					<div class="row ">
+
+      					<div class="col-md-3 col-sm-12 imgfooter">
+      						<img class="pt-5" src="assets/img/menu.png"/>
+      						</div>
+      						<div class="fottermenu col-sm-12  col-md-1">
+      							<p class="fottermenuheader  pt-5 pb-3">ZESPÓŁ</p>
+      							<a class="text-white py-3 my-5">O nas</a><br>
+      							<a class="text-white py-3 my-5">Lorem</a><br>
+      							<a class="text-white py-3 my-5">Kariera</a><br>
+      							<i class="fa fa-facebook"></i>
+      						</div>
+      						<div class="fottermenu col-sm-12  col-md-3">
+      							<p class="fottermenuheader pt-5 pb-3">DLA FIRM</p>
+      							<a class="text-white py-3 my-5">Obsługa prawna przedsiębiorców </a><br>
+      							<a class="text-white py-3 my-5">Obsługa prawna firm </a><br>
+      							<a class="text-white py-3 my-5">Obsługa prawna spółek </a><br>
+      							<a class="text-white py-3 my-5">Obsługa prawna pracodawców </a><br>
+      						</div>
+
+      						<div class="fottermenu col-sm-12  col-md-3">
+      							<p class="fottermenuheader pt-5 pb-3">DLA CIEBIE</p>
+      							<a class="text-white py-3 my-5">Spadki</a><br>
+      							<a class="text-white py-3 my-5">Rozwody i podziały majątku</a><br>
+      							<a class="text-white py-3 my-5">Alimenty i kontakt z dzieckiem</a><br>
+      							<a class="text-white py-3 my-5">Sprawy karne</a><br>
+      							<a class="text-white py-3 my-5">Prawo pracy</a><br>
+      							<a class="text-white py-3 my-5">Windykacja</a><br>
+      							<a class="text-white py-3 my-5">Inne</a><br>
+      						</div>
+      						<div class="fottermenusocial text-center col-sm-12  col-md-2">
+      							<p class="fottermenuheader pt-5 pb-3">SOCIAL MEDIA</p>
+      							<i class="fa fa-facebook facebook-logo mx-1 my-auto" style="font-size:26px; border-radius: 50%; background-color: rgba(255, 255, 255, .5); color: white !important; width: 40px; height: 40px; text-align: center;"></i>
+      							<i class="fa fa-facebook facebook-logo mx-1 my-auto" style="font-size:26px; border-radius: 50%; background-color: rgba(255, 255, 255, .5); color: white !important; width: 40px; height: 40px; text-align: center;"></i>
+      							<i class="fa fa-facebook facebook-logo mx-1 my-auto" style="font-size:26px; border-radius: 50%; background-color: rgba(255, 255, 255, .5); color: white !important; width: 40px; height: 40px; text-align: center;"></i>
+      						</div>
+      					<!-- .container -->
+      					</div>
+      				</footer><!-- #colophon -->
+
+      			</div><!--col end -->
+
+      		</div><!-- row end -->
+
+      	</div><!-- container end -->
+
+      </div><!-- wrapper end -->
+
+      </div><!-- #page we need this extra closing tag here -->
+
+
+
+      </body>
+      <script src="js/myscripts.js"></script>
+      <script>
+
+
+
+
+      </script>
+
+      </html>

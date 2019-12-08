@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+
+}
 html{
   overflow-x: hidden;
 
@@ -34,10 +38,10 @@ div.row > div {
 .container-green{
   background-color: #0a4426;
   color: white !important;
-  padding: 2% 0% 2% 4% !important;
+  padding: 2% 4% 2% 4% !important;
 }
 .container-two{
-  padding: 2% 0% 2% 4% !important;
+  padding: 2% 4% 2% 4% !important;
   border: solid 2px #0a4426;
 }
 * {
@@ -346,6 +350,7 @@ margin: 0% !important;
 background-repeat-y: no-repeat;
 background-position-y: center;
 background-position-x: center;
+background-size: cover;
 }
 .mobile-buttons{
   position: absolute;
@@ -362,7 +367,7 @@ background-position-x: center;
 .mobile-menu{
   background-color:#0a4426;
   color: white;
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: none;
   z-index: 2;

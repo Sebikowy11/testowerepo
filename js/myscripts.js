@@ -28,6 +28,34 @@ $( window ).resize(function() {
   else{
         $(".navbarcontent1").css("display", "none");
         $(".navbarcontent").css("display", "block");
+        $("#moved-left-img").css("display", "");
+    		$(".homepage-white").css("display", "");
+    		$(".main-text-field").css("display", "");
+    		$("p").css("text-align", "left");
+    		$("h3").css("text-align", "left");
+    		$("h1").css("text-align", "left");
+    		$("h2").css("text-align", "left");
+    		$("h4").css("text-align", "left");
+        $(".fottermenu").css("text-align", "left");
+        $(".fottermenusocial").css("text-align", "left");
+    		$("#phone-team").css("text-align", "left");
+    		$("#phone-team2").css("text-align", "left");
+    		$("#phone-team3").css("text-align", "left");
+    		$("#phone-team4").css("text-align", "left");
+        $(".team-us").css("text-align", "left");
+    		$("#phone-team").addClass("pr-5");
+    		$("#phone-team2").addClass("pr-5");
+    		$("#phone-team3").addClass("pr-5");
+    		$("#phone-team4").addClass("pr-5");
+    	  $("p").addClass("pr-5");
+    		$(".bg-main-mobile").removeClass("bg-main-mobile").addClass("bg-main");
+    		$(".mobile-buttons").removeClass("mobile-buttons").addClass("animatedlink");
+    		$(".button-on-dark").removeClass("mobile-buttons2").addClass("mobile-buttons");
+          $('.imgfooter').css("text-align", "left");
+  }
+  if(windowWidth>windowHeight){
+    $('#expandmenu').css("top", "5vw");
+
   }
   if (1030 > windowWidth) {
     $("#moved-left-img").css("display", "none");
@@ -53,6 +81,7 @@ $( window ).resize(function() {
 		$(".bg-main").removeClass("bg-main").addClass("bg-main-mobile");
 		$(".animatedlink").removeClass("animatedlink").addClass("mobile-buttons");
 		$(".button-on-dark").removeClass("mobile-buttons").addClass("mobile-buttons2");
+      $('.imgfooter').css("text-align", "center");
 
 
 
@@ -69,6 +98,9 @@ $(document).ready(function() {
         $(".navbarcontent1").css("display", "none");
         $(".navbarcontent").css("display", "block");
   }
+  if(windowWidth>windowHeight){
+    $('#expandmenu').css("top", "5vw");
+  }
   if (1030 > windowWidth) {
     $("#moved-left-img").css("display", "none");
 		$(".homepage-white").css("display", "none");
@@ -93,6 +125,7 @@ $(document).ready(function() {
 		$(".bg-main").removeClass("bg-main").addClass("bg-main-mobile");
 		$(".animatedlink").removeClass("animatedlink").addClass("mobile-buttons");
 		$(".button-on-dark").removeClass("mobile-buttons").addClass("mobile-buttons2");
+      $('.imgfooter').css("text-align", "center");
 
 
 
